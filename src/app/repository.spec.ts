@@ -1,2 +1,9 @@
-export interface Repository.Spec {
-}
+import { Repository } from "./repository" 
+
+describe('Repository', () =>{
+    it('should create an intance', () =>{
+    expect(new Repository()).toBeTruthy();
+    });
+});
+
+
