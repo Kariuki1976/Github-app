@@ -7,10 +7,21 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [
     AppComponent
+    HeaderComponent,
+    HomeComponent,
+    UserDetailsComponent,
+    SearchFormComponent,
+    FooterComponent,
+    DaysCountPipe,
+    HighlightDirective,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
