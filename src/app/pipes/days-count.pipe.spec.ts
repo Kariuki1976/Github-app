@@ -1,4 +1,4 @@
-import { DaysCountPipe } from './days-count.pipe';
+import { DaysCountPipe } from './footer/pipes/days-count.pipe';
 
 describe('DaysCountPipe', () => {
   it('create an instance', () => {

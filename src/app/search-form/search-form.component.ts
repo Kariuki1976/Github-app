@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+
+
 @Component({
   selector: 'app-search-form',
   templateUrl: './search-form.component.html',
@@ -10,7 +11,6 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 export class SearchFormComponent implements OnInit {
   searchForm!: FormGroup;
   username!: string;
-  faSearch = faSearch;
   constructor(private route: Router) {}
 
   ngOnInit(): void {

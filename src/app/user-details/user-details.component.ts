@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { GithubService } from 'src/app/services/github.service';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { User } from '../user';
+// import { faLink } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-user-details',
   templateUrl: './user-details.component.html',
   styleUrls: ['./user-details.component.css']
 })
 export class UserDetailsComponent implements OnInit {
-  faLink = faLink; // icon
+  // faLink = faLink; // icon
   username!: string;
   userDetail: any;
   repoData!: any;

@@ -1,10 +1,10 @@
-export interface Repository {
-    constructor(
-        name: string,
-        html_url: string,
-        description: string,
-        updated_at: Date,
-        created_at: Date,
-        clone_url: string
+export class Repository {
+    constructor (
+      public name: string,
+      public html_url: string,
+      public description: string,
+      public updated_at: Date,
+      public created_at: Date,
+      public clone_url: string,
       ) {}
 }

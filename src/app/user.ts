@@ -8,6 +8,6 @@ export class User {
       public updated_at: Date,
       public name: string,
       public full_name: string,
-      public html_url: string
+      public html_url: string,
     ) {}
   }
