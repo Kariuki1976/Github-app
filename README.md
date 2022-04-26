@@ -18,9 +18,8 @@ Install project dependencies:[npm install]To serve application locally:[ng serve
 
 4.TypeScript
 
-5.npm
 
-## Contributing to thi project 
+## Contributing to this project 
 
 Clone or fork this project as your own.
 
